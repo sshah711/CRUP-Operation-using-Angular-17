@@ -1,0 +1,10 @@
+<div class="container">
+    <h1 class="text-center">View Post</h1>
+    <a href="#" routerLink="/post/index/" class="btn btn-warning">Back</a>
+    <div *ngIf="post">
+        <strong>ID:</strong><p>{{post.id}}</p>
+        <strong>Title:</strong><p>{{post.title}}</p>
+        <strong>Post:</strong><p>{{post.body}}</p>
+      </div>
+      
+  </div>
